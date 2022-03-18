@@ -47,6 +47,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
         counter = savedInstanceState.getInt("key_counter", 0);
-        txtTotal.setText("" + counter); 
+        txtTotal.setText("" + counter);
     }
 }
